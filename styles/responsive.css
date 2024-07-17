@@ -2,8 +2,26 @@
     body{
         padding: 16px;
     }
+
+    /* common styles start  */
+    .navbar, 
+    .travel-inputs, 
+    .popular-tours{
+        flex-direction: column; 
+    }
+
+    h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        font-size: 14px;
+    }
+
+
+    /* common styles ends  */
+
     .navbar{
-        flex-direction: column;
         gap: 20px;
     }
     .nav-options{
@@ -35,5 +53,27 @@
     .input-btn{
         width: 100%;
     }
+
+    /* main section  */
+    
+    
+    /* popular tour  */
+    .popular-tour-img{
+        width: 100%;
+        margin-top: 0;
+    }
+    .popular-tour-img img{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .popular-tours-content li{
+        font-size: 14px;          
+    }
+    .popular-tours-content button{
+        margin: 0;
+    }
+
+
     
 }
