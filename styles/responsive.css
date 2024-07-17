@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+    body{
+        padding: 16px;
+    }
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-options{
+        gap: 10px;
+    }
+    .banner{
+        padding: 32px 16px; 
+    }
+    .banner-title{
+        font-size: 22px;
+    }
+    .banner-description{  
+        padding: 14px 4px 32px;
+    }
+    
+
+
+
+    .travel-inputs{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+    
+    input, select{
+        
+        width: 100%;
+    }
+    .input-btn{
+        width: 100%;
+    }
+    
+}
