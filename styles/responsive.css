@@ -18,6 +18,10 @@
         font-size: 14px;
     }
 
+    section{
+        margin-top: 50px;
+    }
+
 
     /* common styles ends  */
 
@@ -74,6 +78,9 @@
         margin: 0;
     }
 
+    /* destination  */
 
-    
+    .row-1, .row-2, .row-3{
+        grid-template-columns: 1fr ;
+        margin-bottom: 24px;
 }
